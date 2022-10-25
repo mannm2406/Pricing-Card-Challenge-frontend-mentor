@@ -112,3 +112,15 @@ ul {
     font-size: 0.8rem;
     opacity: 0.85;
 }
+
+@media (max-width: 650px){
+    #card {
+        height: auto;
+        width: 90%;
+    }
+
+    #bottomleft, #bottomright {
+        width: 100%;
+        height: auto;
+    }
+}
